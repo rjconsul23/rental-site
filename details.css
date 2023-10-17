@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background-color:white;
+}
+
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+
+.navmenu{
+    display: flex;
+}
+
+.button{
+    padding: 6px 24px;
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button:active{
+    transform: scale(0.98);
+}
+
+.navmenu a{
+    color: #2c2c2c;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.navmenu a:hover{
+    color: #EE1C47;
+    cursor: pointer;
+     transform: scale(1.1);
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon i{
+    margin-right: 20px;
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: #EE1C47;
+}
+
+#menu-icon{
+    font-size: 35px;
+    color: #2c2c2c;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+
+
+
+.about{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    
+    
+    
+    }
+    .about img{
+      height: 425px;
+      width: 500px;
+      margin-top: 100px;
+      border-radius: 10%;
+      border: 1px solid black;
+    }
+    .about-text{
+      width: 200%;
+      text-align: center;
+      margin-top: auto;
+      width: 420px;
+    
+      backdrop-filter: blur(90px);
+      border-radius: 10%;
+      border: 1px solid black;
+   
+     padding: 40px 30px;
+    }
+  
+    .main{
+      width: 1130px;
+      max-width: 95%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .about-text h2{
+      color: black;
+      font-size: 45.2px;
+      font-family:sans-serif;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+    }
+    .about-text h5{
+      color: black;
+      letter-spacing: 2px;
+      font-size: 22px;
+      margin-bottom: 25px;
+      text-transform: capitalize;
+    }
+    .about-text span{
+      color: #f9004d;
+    }
+    .about-text p{
+      color: black;
+      letter-spacing: 1px;
+      line-height: 20px;
+      font-size: 18px;
+      margin-bottom: 45px;
+    }
+    button{
+      background-color: #f9004d;
+      color:white;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 13px 30px;
+      border-radius: 30px;
+      transition: .4s;
+    }
+    button:hover{
+      background-color: transparent;
+      border: 2px solid #f9004d;
+      cursor: pointer;
+    }
+
+    .heart-icon:hover{
+        color: #EE1C47;
+    }
+
+    .heart-icon{
+        color: white;
+    }
+    .rating i{
+    color: #FF8C00;
+        font-size: 18px;
+    }
+
+    .rating h4{
+        color: #EE1C47;
+    }
+    
+    .price h4{
+        color: #EE1C47;
+        font: bold;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    
+    .price p{
+        color: #EE1C47;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .price button:hover{
+        color: #EE1C47;
+        cursor: pointer;
+        transform: scale(0.9);
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+/*Client Reviews to*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    width: 43%;
+}
+
+.clientImage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.reviewItem ul{
+    color: #FF8C00;
+}
+
+.clientImage span {
+    margin-left: 10px;
+    color: white;
+}
+
+.clientImage img {
+    width: 40px;
+}
+
+.reviewSection {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.review{
+    color: white;
+}
+
+.date{
+    color: white;
+}
+
+.reviewItem {
+    width: 300px;
+    padding: 10px;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #10102a;
+    border: 1px solid #10102a;
+    transition: all .2s linear;
+}
+
+.reviewItem:hover {
+    border-color:#f9004d;
+    transform: scale(1.07);
+    background-color: #090921;
+    
+}
+
+.top {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top ul {
+    display: flex;
+    list-style: none;
+}
+
+.top ul li {
+    padding-left: 4px;
+}
+
+article p {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    font-family: system-ui;
+}
+
+/*Responsive client Reviews*/
+@media screen and (max-width:700px) {
+    .container {
+        height: auto;
+    }
+
+    .description {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .reviewSection {
+        padding: 0;
+    }
+
+    .reviewItem {
+        width: 100%;
+    }
+
+    .clientImage {
+        margin-bottom: 0.6rem;
+    }
+
+    .top {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/*Reservation Date*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+   
+}
+
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"],
+form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reservation-form button{
+    color: wheat;
+    background-color: #333;
+}
+
+form button {
+    
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
